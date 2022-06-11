@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityinfo"
+    android:background="#362545">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="343dp"
+        android:layout_height="251dp"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-11dp"
+
+        android:text="'Kid's alphabet' is an application for kid's. It's helpful to read alphabets with examples alternate books.There are 26 letters in the English alphabet which range from 'a' to 'z.Thank you.  "
+        android:textColor="#fff68f"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="306dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="122dp"
+        android:text="Developed by 'Ibrahim Khalil Ullah And Tanmoy Datta'"
+        android:textColor="#9400d3"
+        android:textSize="15dp"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="31dp"
+        android:background="#b6cdc1"
+        android:onClick="switch5"
+        android:text="Back"
+        android:textSize="20sp" />
+</RelativeLayout>
